@@ -1,0 +1,39 @@
+{
+  "name": "viral-article-generator",
+  "version": "1.0.0",
+  "description": "基于爆款结构模板的自动化文章生成工具",
+  "main": "scripts/generate.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "validate": "node scripts/validate.js",
+    "test": "npm run validate examples/clawdbot-config.json && npm run generate examples/clawdbot-config.json",
+    "help": "node scripts/generate.js --help"
+  },
+  "keywords": [
+    "article",
+    "generator",
+    "template",
+    "content",
+    "writing",
+    "viral",
+    "爆款",
+    "文章生成器"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/viral-article-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/viral-article-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/viral-article-generator#readme"
+}
