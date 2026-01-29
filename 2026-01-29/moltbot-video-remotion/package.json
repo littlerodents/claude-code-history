@@ -1,0 +1,23 @@
+{
+  "name": "moltbot-video",
+  "version": "1.0.0",
+  "description": "Moltbot promotional video - Qiniu Cloud version",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render MoltbotPromo out/moltbot-promo.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/web": "^0.0.166",
+    "typescript": "^5.0.0"
+  },
+  "private": true
+}
