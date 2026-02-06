@@ -1,0 +1,28 @@
+{
+  "name": "qiniu-ticket",
+  "version": "1.0.0",
+  "description": "七牛云抢票神器宣传视频 - 60秒短视频",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render QiniuTicket out/qiniu-ticket.mp4",
+    "render-preview": "remotion render QiniuTicket out/preview.mp4 --frames=0-360",
+    "upgrade": "remotion upgrade",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.410",
+    "playwright": "^1.58.1",
+    "puppeteer": "^24.37.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.410"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "private": true
+}
