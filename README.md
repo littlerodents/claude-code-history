@@ -30,6 +30,14 @@ claude-code-history/
     └── 七牛云抢票视频-remotion/     # 60秒短视频项目
         ├── PROJECT-SUMMARY.md
         └── src/                     # 完整源代码
+
+└── 2026-02-09/
+    └── 视频帧素材/                  # 视频帧图片和mov文件
+
+└── 2026-02-13/
+    └── OpenClaw-Agent集群技术指南/  # Agent集群技术深度文章
+        ├── PROJECT-SUMMARY.md
+        └── openclaw-agent-cluster-guide.md
 ```
 
 ## 如何使用
@@ -75,6 +83,8 @@ Claude 会问：
 | 2026-01-26 | 爆款文章生成框架 | Handlebars 模板 + 7步爆款结构 |
 | 2026-01-29 | moltbot-video-remotion | Remotion 视频项目 |
 | 2026-02-06 | 七牛云抢票视频 | 60秒短视频，120fps |
+| 2026-02-09 | 视频帧素材 | 视频帧图片和mov原始素材 |
+| 2026-02-13 | OpenClaw-Agent集群技术指南 | Agent集群三大机制+配置深度解析，约3000字 |
 
 ---
 
