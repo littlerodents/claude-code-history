@@ -38,6 +38,12 @@ claude-code-history/
     └── OpenClaw-Agent集群技术指南/  # Agent集群技术深度文章
         ├── PROJECT-SUMMARY.md
         └── openclaw-agent-cluster-guide.md
+
+└── 2026-02-23/
+    └── OpenClaw模型对比文章/        # Claude vs Gemini 纵向进化实测
+        ├── PROJECT-SUMMARY.md
+        ├── article.md               # 完整文章
+        └── WRITING-RULES.md         # 文章写作规则（可复用）
 ```
 
 ## 如何使用
@@ -85,6 +91,7 @@ Claude 会问：
 | 2026-02-06 | 七牛云抢票视频 | 60秒短视频，120fps |
 | 2026-02-09 | 视频帧素材 | 视频帧图片和mov原始素材 |
 | 2026-02-13 | OpenClaw-Agent集群技术指南 | Agent集群三大机制+配置深度解析，约3000字 |
+| 2026-02-23 | OpenClaw模型对比文章 | Claude 4.6 vs Gemini 3.1 纵向进化实测，含写作规则模板 |
 
 ---
 
